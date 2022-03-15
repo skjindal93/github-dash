@@ -1,0 +1,8 @@
+<h6 class="title">
+  {{getRepository html_url}}
+  <small class="text-muted">#{{getPullRequest html_url}}</small>
+</h6>
+<a class="url" href="{{html_url}}">{{title}}</a>
+<div class="footer">
+  <span class="user">{{user.login}}</span> opened on {{formatDate created_at}}
+</div>

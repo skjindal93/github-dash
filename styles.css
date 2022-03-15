@@ -1,0 +1,28 @@
+#dashboard {
+  padding-top: 10px;
+}
+
+.author {
+  width: 20%;
+  float: left;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.pr {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.pr .body {
+  margin-top: 4px;
+}
+
+.pr .footer {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.pr .footer .user {
+  font-weight: 600;
+}
