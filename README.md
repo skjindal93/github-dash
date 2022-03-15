@@ -15,7 +15,7 @@ A dashboard to look at pull requests grouped by author, based on certain filters
 
 ## Query
 
-The http://localhost:8001 supports a query parameter `q`, similar to searches supported by Github Search APIs.
+The http://localhost:8081 supports a query parameter `q`, similar to searches supported by Github Search APIs.
 
 An example query would look like
 http://localhost:8081?q=org:hypertrace+author:skjindal93
